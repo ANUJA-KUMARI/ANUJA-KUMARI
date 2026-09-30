@@ -46,15 +46,15 @@ A routing engine built with **Next.js + TypeScript**, exploring multiple shortes
 </td>
 <td width="50%" valign="top">
 
-### ♻️ AI Waste Segregation
+### 🔐 Secure Exam System
 
-An AI-enabled waste classification and segregation system combining computer vision with intelligent actuation.
+A secure examination platform focused on building a reliable workflow for online assessments.
 
 **Focus**
 
-\`YOLO\` \`Computer Vision\` \`Classification\` \`Edge AI\`
+\`Authentication\` \`Security\` \`Web Development\` \`Database Systems\`
 
-<a href="https://github.com/ANUJA-KUMARI/AI_SERVO_YOLO_PROJECT">View repository →</a>
+<a href="https://github.com/ANUJA-KUMARI/secure-exam-system">View repository →</a>
 
 </td>
 </tr>
