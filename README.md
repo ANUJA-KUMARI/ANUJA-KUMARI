@@ -4,7 +4,7 @@
 
 </div>
 
-<h2 align="center">Hi, I'm Anuja 👋</h2>
+<h2 align="center">Hi, I'm Anuja </h2>
 
 <p align="center">
   <b>B.Tech CSE • AI/ML • Software Engineering • NLP</b>
@@ -17,23 +17,23 @@
 
 ---
 
-## 🧭 What I Build
+##  What I Build
 
-- 🤖 **AI / ML** — deep learning, computer vision, NLP and explainable AI
-- 🧠 **Research** — studying how reliable and stable ML systems are
-- 🗺️ **Algorithms** — routing, graph algorithms and data structures
-- 🌐 **Software** — full-stack applications and developer tools
-- ♻️ **Intelligent Systems** — applying AI to real-world waste-management problems
+-  **AI / ML** — deep learning, computer vision, NLP and explainable AI
+-  **Research** — studying how reliable and stable ML systems are
+-  **Algorithms** — routing, graph algorithms and data structures
+-  **Software** — full-stack applications and developer tools
+-  **Intelligent Systems** — applying AI to real-world waste-management problems
 
 ---
 
-## 🚀 Featured Projects
+##  Featured Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🗺️ Naviq
+###  Naviq
 
 A routing engine built with **Next.js + TypeScript**, exploring multiple shortest-path and graph algorithms.
 
@@ -46,7 +46,7 @@ A routing engine built with **Next.js + TypeScript**, exploring multiple shortes
 </td>
 <td width="50%" valign="top">
 
-### 🔐 Secure Exam System
+###  Secure Exam System
 
 A secure examination platform focused on building a reliable workflow for online assessments.
 
@@ -62,7 +62,7 @@ A secure examination platform focused on building a reliable workflow for online
 <tr>
 <td width="50%" valign="top">
 
-### 🧠 NLP Explanation Stability
+###  NLP Explanation Stability
 
 Researching whether NLP model explanations remain stable when inputs are paraphrased.
 
@@ -75,7 +75,7 @@ Researching whether NLP model explanations remain stable when inputs are paraphr
 </td>
 <td width="50%" valign="top">
 
-### 👁️ Driver Drowsiness
+###  Driver Drowsiness
 
 A computer-vision project focused on detecting driver drowsiness and building an alerting workflow.
 
@@ -91,7 +91,7 @@ A computer-vision project focused on detecting driver drowsiness and building an
 
 ---
 
-## 🔬 Research
+##  Research
 
 ### Stability of NLP Model Explanations Across Real-World Paraphrase Datasets
 
@@ -103,7 +103,7 @@ The study uses **QQP and PAWS** and investigates explanation stability with meth
 
 ---
 
-## 🛠️ My Toolbox
+##  My Toolbox
 
 ### Languages
 <p>
@@ -127,7 +127,7 @@ The study uses **QQP and PAWS** and investigates explanation stability with meth
 
 ---
 
-## 💡 Currently Exploring
+##  Currently Exploring
 
 \`\`\`text
 Machine Learning
@@ -143,7 +143,7 @@ Algorithms ───────→ Intelligent Systems
 
 ---
 
-## 📊 GitHub
+##  GitHub
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ANUJA-KUMARI&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" height="165" alt="Anuja's GitHub statistics"/>
@@ -152,7 +152,7 @@ Algorithms ───────→ Intelligent Systems
 
 ---
 
-## 🤝 Let's Connect
+##  Let's Connect
 
 <p align="center">
   <a href="https://github.com/ANUJA-KUMARI">GitHub</a>
