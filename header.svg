@@ -51,9 +51,9 @@
   <animate attributeName="stroke-dashoffset" from="0" to="-60" dur="2s" repeatCount="indefinite"/>
 </path>
 <g>
-  <animateMotion dur="6s" repeatCount="indefinite" calcMode="linear"
-    path="M735 210 C825 115 1000 105 1135 155"
-    keyPoints="0;1;0" keyTimes="0;0.5;1"/>
+  <animateMotion dur="14s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1"
+    path="M735 210 C780 135 850 95 900 145 C955 205 1010 250 1080 190 C1140 135 1085 85 1020 115 C955 150 930 235 850 225 C790 215 820 155 880 175 C950 200 1015 95 1090 125 C1150 150 1110 225 1040 235 C965 245 920 180 860 130 C810 90 760 145 735 210"
+    keyPoints="0;1" keyTimes="0;1"/>
   <ellipse cx="0" cy="15" rx="49" ry="58" fill="#45dfff" opacity=".13" filter="url(#soft)"/>
   <path d="M-37 26 C-48 3 -43 -29 -22 -43 C-7 -54 15 -53 30 -38 C48 -19 47 10 38 27 L25 19 L10 33 L-4 20 L-20 34 L-31 20 Z"
         fill="url(#ghostGlow)" stroke="#67e8f9" stroke-width="3"/>
