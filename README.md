@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./ghost-bug-hunter.gif" width="100%" alt="Anuja Kumari — Ghost Bug Hunter animated profile banner"/>
+<img src="./header.svg" width="100%" alt="Anuja Kumari — Ghost Bug Hunter animated profile banner"/>
 
 </div>
 
