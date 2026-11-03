@@ -8,7 +8,6 @@
   </linearGradient>
   <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   <filter id="soft"><feGaussianBlur stdDeviation="9"/></filter>
-  <path id="ghostRoute" d="M720 220 C770 120 835 105 900 165 S1015 245 1085 130 S1120 100 1135 85"/>
   <g id="goldBug">
     <ellipse cx="0" cy="0" rx="6" ry="5" fill="#ffd166" filter="url(#glow)"/>
     <ellipse cx="-8" cy="-5" rx="6" ry="3" fill="#ffe7a3" opacity=".8"><animate attributeName="ry" values="2;5;2" dur=".28s" repeatCount="indefinite"/></ellipse>
@@ -46,28 +45,15 @@
 <text x="680" y="42" fill="#67e8f9" font-family="monospace" font-size="13" letter-spacing="2">GHOST BUG HUNTER</text>
 <text x="680" y="61" fill="#64748b" font-family="monospace" font-size="10">SCAN → CHASE → DEBUG → REPEAT</text>
 <path d="M680 160 C770 70 820 280 910 170 S1050 70 1160 190" fill="none" stroke="#334155" stroke-width="2" stroke-dasharray="4 8" opacity=".8"/>
-<path d="M720 220 C770 120 835 105 900 165 S1015 245 1085 130 S1120 100 1135 85" fill="none" stroke="#67e8f9" stroke-width="2" stroke-dasharray="5 10" opacity=".35">
+
+<!-- Ghost moves back and forth BEHIND the bugs -->
+<path d="M735 210 C825 115 1000 105 1135 155" fill="none" stroke="#67e8f9" stroke-width="2" stroke-dasharray="5 10" opacity=".28">
   <animate attributeName="stroke-dashoffset" from="0" to="-60" dur="2s" repeatCount="indefinite"/>
 </path>
-
-<!-- Floating bug fireflies -->
 <g>
-  <use href="#goldBug" x="0" y="0">
-    <animateMotion dur="5.5s" repeatCount="indefinite" path="M1040 95 C1100 60 1145 110 1085 145 S1010 115 1040 95"/>
-  </use>
-  <use href="#redBug">
-    <animateMotion dur="4.4s" repeatCount="indefinite" path="M1100 245 C1150 210 1140 165 1080 185 S1050 250 1100 245"/>
-  </use>
-  <use href="#goldBug">
-    <animateMotion dur="6s" repeatCount="indefinite" path="M760 120 C800 85 845 125 820 165 S760 170 760 120"/>
-  </use>
-</g>
-
-<!-- Flying robot ghost -->
-<g>
-  <animateMotion dur="5.2s" repeatCount="indefinite" rotate="auto">
-    <mpath href="#ghostRoute"/>
-  </animateMotion>
+  <animateMotion dur="6s" repeatCount="indefinite" calcMode="linear"
+    path="M735 210 C825 115 1000 105 1135 155"
+    keyPoints="0;1;0" keyTimes="0;0.5;1"/>
   <ellipse cx="0" cy="15" rx="49" ry="58" fill="#45dfff" opacity=".13" filter="url(#soft)"/>
   <path d="M-37 26 C-48 3 -43 -29 -22 -43 C-7 -54 15 -53 30 -38 C48 -19 47 10 38 27 L25 19 L10 33 L-4 20 L-20 34 L-31 20 Z"
         fill="url(#ghostGlow)" stroke="#67e8f9" stroke-width="3"/>
@@ -80,6 +66,19 @@
   <circle cx="11" cy="-8" r="2" fill="#fff"/>
   <path d="M-7 8 Q0 14 7 8" fill="none" stroke="#67e8f9" stroke-width="2" stroke-linecap="round"/>
   <path d="M-29 38 Q-19 50 -8 38 M8 38 Q20 50 30 37" fill="none" stroke="#8be9ff" stroke-width="3" stroke-linecap="round"/>
+</g>
+
+<!-- Floating bugs are layered in front of the moving ghost -->
+<g>
+  <use href="#goldBug" x="0" y="0">
+    <animateMotion dur="5.5s" repeatCount="indefinite" path="M1040 95 C1100 60 1145 110 1085 145 S1010 115 1040 95"/>
+  </use>
+  <use href="#redBug">
+    <animateMotion dur="4.4s" repeatCount="indefinite" path="M1100 245 C1150 210 1140 165 1080 185 S1050 250 1100 245"/>
+  </use>
+  <use href="#goldBug">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M760 120 C800 85 845 125 820 165 S760 170 760 120"/>
+  </use>
 </g>
 
 <!-- Capture sparks -->
